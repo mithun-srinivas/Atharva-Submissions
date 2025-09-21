@@ -1,0 +1,20 @@
+/* Background with Image Only */
+body {
+    background-image: url("https://images.rawpixel.com/image_social_landscape/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjk5Ni0wMjUta3JvaXJnbWIuanBn.jpg");
+    background-position: center;
+    background-position: no-repeat;
+    background-size: cover;  
+}
+
+/* Header styling */
+h1{
+  font-family: "Bitcount Ink", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+#tribute{
+    background-color: aqua;
+    max-height: 300px;
+}
+   
+
