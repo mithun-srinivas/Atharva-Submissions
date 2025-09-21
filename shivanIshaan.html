@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>NavBar using Tailwind CSS</title>
+</head>
+<body>
+    <div class="max-w-[1200px] mx-auto px-[20px]" >
+        <nav class="flex justify-between items-center ">
+            <div>
+                <img src="logo.png" alt="OneCard Logo" class="w-[60px]" >
+            </div>
+            <div class="flex gap-[30px]">
+                <div class="hidden md:flex gap-[30px]">
+                    <a href="/home">Home</a>
+                    <a href="/about">About Us</a>
+                    <a href="/creditCard">Credit Card</a>
+                    <a href="/Offers">Offers</a>
+                    <a href="/faq">FAQ</a>
+                    <a href="/contactUs">Contact Us</a>
+                    <a href="/careers">Careers</a>
+                </div>
+                <img src="menu.png" alt="Menu Icon" class="w-[30px] md:hidden">
+                <img src="googleplay.svg" alt="Google Play Image" class="w-[100px]">
+            </div>
+        </nav>
+    </div>
+    
+</body>
+</html>
